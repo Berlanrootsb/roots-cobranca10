@@ -14,5 +14,6 @@ const config: ExpoConfig = {
   web: { bundler: "metro", output: "static", favicon: "./assets/images/favicon.png" },
   plugins: ["expo-router", ["expo-splash-screen", { image: "./assets/images/splash-icon.png", imageWidth: 200, resizeMode: "contain", backgroundColor: "#0e0f14" }]],
   experiments: { typedRoutes: true, reactCompiler: true },
+  extra: { eas: { projectId: "b75910c5-0675-416b-aae6-d8f65707bd80" } },
 };
 export default config;
